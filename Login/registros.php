@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
-    <link rel="stylesheet" href="../../../css/login.css">
-    <link rel="stylesheet" href="../../../css/sidebar.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/sidebar.css">
 
-    <script src="../../../Js/sidebar.js" defer></script>
+    <script src="../Js/sidebar.js" defer></script>
 </head>
 
 <body>
-<?php include("../sidebar.php"); ?>
+
     <div class="login-box">
-        <img src="../../../Imagenes/logoSena1.png" alt="Logo" class="logoSena">
+        <img src="../Imagenes/logoSena1.png" alt="Logo" class="logoSena">
         <h2>Registro de Usuario</h2>
         <form id="form-registro">
             <div class="user-box">
@@ -47,13 +47,14 @@
             </div>
             <div class="user-box">
                 <select id="rol" name="rol" required>
-                    <option value="Administrador">Administrador</option>
+               
                     <option value="Instructor">Cotizante</option>
           
                 </select>
                 <label for="rol">Rol:</label>
             </div>
             <button type="submit" class="submit-btn">Registrar nuevo usuario
+            <button class="back-button" onclick="window.location.href='index.html'">Ya Poseo una cuenta</button>
                 <span></span><span></span><span></span><span></span> 
             </button>
         </form>
@@ -67,7 +68,7 @@
             var form = document.getElementById("form-registro");
             var formData = new FormData(form);
 
-            fetch("Gestionar_Crear_usuario.php", {
+            fetch("registro.php", {
                 method: "POST",
                 body: formData
             })

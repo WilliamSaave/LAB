@@ -1,6 +1,6 @@
 <?php
 session_start();
-require("../../../Conexion/conexion.php");
+require("../../Conexion/conexion.php");
 
 // Verifica si el usuario ha iniciado sesión
 if (isset($_SESSION['documento'])) { // Cambia a 'documento'
@@ -25,13 +25,13 @@ if (isset($_SESSION['documento'])) { // Cambia a 'documento'
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../../../css/sidebar.css">
-    <link rel="stylesheet" href="../../../css/login.css">
+    <link rel="stylesheet" href="../../css/sidebar.css">
+    <link rel="stylesheet" href="../../css/login.css">
     <script src="../../../Js/sidebar.js" defer></script>
     <title>Perfil del Usuario</title>
 </head>
 <body>
-<?php include("../sidebar.php"); ?>
+<?php include("sidebar.php"); ?>
 <div class="login-box">
     <h2>Perfil del Usuario</h2>
 
@@ -45,7 +45,7 @@ if (isset($_SESSION['documento'])) { // Cambia a 'documento'
         <p>No se encontraron datos del usuario.</p>
     <?php endif; ?>
 
-    <a href="../../../Login/logout.php" class="olvido">Cerrar sesión</a>
+    <a href="../../Login/logout.php" class="olvido">Cerrar sesión</a>
 </div>
 
 </body>

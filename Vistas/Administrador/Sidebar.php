@@ -11,39 +11,43 @@
 <div class="sidebar-container">
     <div class="sidebar">
         <div class="logo">
-            <a href="/Visitas/Vistas\Administrador\Sidebar.php">
-                <img src="/Visitas/Imagenes/logoSena1.png" alt="Logo">
+            <a href="/LAB/Vistas\Administrador\index.php">
+                <img src="/LAB/Imagenes/logoSena1.png" alt="Logo">
             </a>
         </div>
         <div class="menu">
             <button class="menu-btn">
-                <img src="/Visitas/Imagenes/iconos/icon_usuario.svg" alt="Usuario Icono">
+                <img src="/LAB/Imagenes/iconos/icon_usuario.svg" alt="Usuario Icono">
                 Usuarios
             </button>
             <div class="submenu">
-                <a href="/Visitas/Vistas\Administrador\Usuarios\Ver_usuario.php">Ver</a>
-                <a href="/Visitas/Vistas\Administrador\Usuarios\Crear_usuario.php">Crear</a>
+                <a href="/LAB/Vistas\Administrador\Usuarios\Ver_usuario.php">Ver</a>
+                <a href="/LAB/Vistas\Administrador\Usuarios\Crear_usuario.php">Crear</a>
             </div>
 
+  
             <button class="menu-btn">
-                <img src="/Visitas/Imagenes/iconos/icon_instructor.svg" alt="Opción 2 Icono">
-            
-
-            <button class="menu-btn">
-                <img src="/Visitas/Imagenes/iconos/icon_empresas.svg" alt="Opción 5 Icono">
+                <img src="/LAB/Imagenes/iconos/icon_empresas.svg" alt="Opción 5 Icono">
                 Empresas
             </button>
             <div class="submenu">
-            <a href="/Visitas/Vistas\Administrador\Empresas\Ver_empresa.php">Ver</a>
-            <a href="/Visitas/Vistas\Administrador\Empresas\Crear_empresa.php">Crear</a>
+            <a href="/LAB/Vistas\Administrador\Empresas\Ver_empresa.php">Ver</a>
+            <a href="/LAB/Vistas\Administrador\Empresas\Crear_empresa.php">Crear</a>
             </div>
 
             <button class="menu-btn">
-                <img src="/Visitas/Imagenes/iconos/icon_Fichas.svg" alt="Opción 6 Icono">
-        
+                <img src="/LAB/Imagenes/iconos/icon_empresas.svg" alt="Opción 5 Icono">
+                Archivos
+            </button>
+            <div class="submenu">
+            <a href="/LAB/Vistas\Administrador\archivos\index.php">Ver</a>
+
+            </div>
+
+
 
             <button class="menu-btn">
-                <img src="/Visitas/Imagenes/iconos/icon_pqr.svg" alt="Opción 7 Icono">
+                <img src="/LAB/Imagenes/iconos/icon_pqr.svg" alt="Opción 7 Icono">
                 PQR
             </button>
             <div class="submenu">
