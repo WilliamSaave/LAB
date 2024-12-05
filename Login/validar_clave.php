@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                         // Redirigir según el rol del usuario
                         if ($row['rol'] == 'Administrador') {
-                            echo json_encode(["success" => true, "redirect" => "../Vistas/Administrador/index.php"]);
+                            echo json_encode(["success" => true, "redirect" => "../Vistas/Administrador/Sidebar.php"]);
                         
                         } elseif ($row['rol'] == 'Instructor') {
                             echo json_encode(["success" => true, "redirect" => "../Vistas/Instructor/Sidebar.php"]);

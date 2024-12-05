@@ -25,13 +25,13 @@ if (isset($_SESSION['documento'])) { // Cambia a 'documento'
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../../css/sidebar.css">
-    <link rel="stylesheet" href="../../css/login.css">
+    <link rel="stylesheet" href="../../../css/sidebar.css">
+    <link rel="stylesheet" href="../../../css/login.css">
     <script src="../../../Js/sidebar.js" defer></script>
     <title>Perfil del Usuario</title>
 </head>
 <body>
-<?php include("sidebar.php"); ?>
+<?php include("../sidebar.php"); ?>
 <div class="login-box">
     <h2>Perfil del Usuario</h2>
 
